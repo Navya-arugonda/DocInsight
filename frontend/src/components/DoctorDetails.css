@@ -1,0 +1,76 @@
+.doctor-details-container {
+    padding: 20px;
+  }
+
+  /* body {
+    font-family: Gill Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3F9796;
+    background-image: url('./stethoscope.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: auto;
+} */
+
+  .details-box {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+  }
+
+  .doctor-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+
+  .doctor-photo {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 8px;
+  }
+
+  .doctor-description {
+    margin-top: 20px;
+  }
+
+  .doctor-contact,
+  .doctor-background,
+  .doctor-reviews {
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  .doctor-contact,
+  .doctor-background,
+  .doctor-reviews {
+    color: #007bff;
+  }
+
+  .read-reviews-link {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Set link color */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+
+  .read-reviews-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+   /* Style for the graph container */
+   #patientsGraphContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  

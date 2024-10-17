@@ -1,0 +1,46 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3F9796;
+    background-image: url('stethoscope.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#search-form {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+select, input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #e7e7e7;
+    font-size: 20px;
+}
+
+#hospital-search, #doctor-search, #specialization-search {
+    display: none;
+    text-align: left; /* Align labels to the left */
+}
+
+#go-button {
+    margin-top: 20px; /* Add margin to separate the "Go" button from the select dropdowns */
+}

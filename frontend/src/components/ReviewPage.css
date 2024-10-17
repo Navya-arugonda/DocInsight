@@ -1,0 +1,102 @@
+/* ReviewPage.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.reviews-list-container {
+  max-height: 400px; /* Set a fixed height for the container */
+  overflow: auto; /* Add scrollbar if content exceeds container height */
+}
+
+.review-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.review-header {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-content {
+  margin-bottom: 15px;
+  word-break: break-all;
+}
+
+.review-rating {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.review-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.form-group button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .review-container {
+    padding: 10px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .review-container {
+    padding: 8px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    padding: 4px;
+    font-size: 14px;
+  }
+}

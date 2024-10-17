@@ -1,0 +1,44 @@
+body {
+  font-family: Gill Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3F9796;
+  background-image: url('./stethoscope.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #333;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+.button
+{
+  background-color: #e7e7e7;
+  font-size: 20px;
+  
+}
+main {
+  padding: 200px;
+  text-align: center;
+}
+div{
+  text-align: center;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the div to fill the viewport vertically */
+}
+
+h1, h2 {
+  text-align: center; /* Center-align the text */
+}
